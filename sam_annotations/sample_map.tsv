@@ -1,0 +1,275 @@
+Description	Germ layer	Cell type/tissue source
+B cell (active)	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+B cells CD19+	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+B cells CD43-	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+B cell (germinal center)	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+B cell (naive)	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+B cell (resting)	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Bone marrow	Blood mesoderm	Primary tissue
+Bone marrow macrophages	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Monocyte	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+BMDM	Blood mesoderm	In vitro derived cells
+BMDM +IL-1b	Blood mesoderm	In vitro derived cells
+BMDM +MALP2	Blood mesoderm	In vitro derived cells
+BMDM +TGFb	Blood mesoderm	In vitro derived cells
+BMDM +CpolyG	Blood mesoderm	In vitro derived cells
+BMDM -lipidA	Blood mesoderm	In vitro derived cells
+BMDM +lipidA 360 mins	Blood mesoderm	In vitro derived cells
+BMDM +IFNg	Blood mesoderm	In vitro derived cells
+BMDM +IL-4	Blood mesoderm	In vitro derived cells
+BMDM +IFNa	Blood mesoderm	In vitro derived cells
+CD4T DP CD3hi	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+CD4T DP CD3lo	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+CD4+ Th1 cells	Blood mesoderm	In vitro derived cells
+CD4+ Th17 cells 	Blood mesoderm	In vitro derived cells
+CD4+ Th2 cells	Blood mesoderm	In vitro derived cells
+CD4+ Th9 cells	Blood mesoderm	In vitro derived cells
+CD4+ Treg cells	Blood mesoderm	In vitro derived cells
+CD4+ T cells	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+CD4+ iTreg cells	Blood mesoderm	In vitro derived cells
+CD4+ T cells -IL-21	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+CD4+ T cells +IL-21	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+CD8+ T cells	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+CD8+ T cells +IL-2	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+CD4+ T NKG2D- cells	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+CD4+ T NKG2D+ cells	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Common lymphoid progenitor	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Common myeloid progenitor	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+DC CD11+	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+DC CD8+	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Double negative 1 (DN1) thymic cells	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+DN1e	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+NKT (derived) 	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Double negative 2a (DN2a) thymic cells	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Double negative 2b (DN2b) thymic cells	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Double negative 3 (DN3) thymic cells	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Double positive thymic cells	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Central neural epithelium (E10.5)	Neural crest	Primary tissue
+Dorsal control neural epithelium (E10.5)	Neural crest	Primary tissue
+Lateral nasal prominence (E10.5)	Neural crest	Primary tissue
+Lateral prominence neural epithelium (E10.5)	Neural crest	Primary tissue
+Mandibular arch (E10.5)	Neural crest	Primary tissue
+Maxillary arch (E10.5)	Neural crest	Primary tissue
+Olfactory pit (E10.5)	Neural crest	Primary tissue
+Atrioventricular canal (E12.5)	Mesoderm	Primary tissue
+Cortical neurons (E16.5)	Neurectoderm	Primary cells (FACS sorted/magnetically purified)
+Skin (E16.5)	Surface ectoderm	Primary tissue
+Dermis (E18.5)	Surface ectoderm	Primary tissue
+Epidermis (E18.5)	Surface ectoderm	Primary tissue
+Epiblast (E6.5) anterior-dorsal	Embryonic	Primary tissue
+Epiblast (E6.5) anterior-proximal	Embryonic	Primary tissue
+Epiblast (E6.5) posterior-dorsal	Embryonic	Primary tissue
+Epiblast (E6.5) posterior-proximal	Embryonic	Primary tissue
+Caudal brain neural epithelium (E8.5)	Neural crest	Primary tissue
+Floor plate (E8.5)	Neural crest	Primary tissue
+Mesoderm (E8.5)	Neural crest	Primary tissue
+Non-floor plate neural epithelium (E8.5)	Neural crest	Primary tissue
+Cranial mesenchyme (E9.5)	Neural crest	Primary tissue
+Epidermal ectoderm (E9.5)	Neural crest	Primary tissue
+Mandibular arch (E9.5)	Neural crest	Primary tissue
+Maxillary arch (E9.5)	Neural crest	Primary tissue
+ESCs (E14)	Embryonic	Normal (untransformed) cultured cells
+Naive ESC (Hex-)	Embryonic	Normal (untransformed) cultured cells
+Naive ESC (Hex+)	Embryonic	Normal (untransformed) cultured cells
+ESCs (B6J)	Embryonic	Normal (untransformed) cultured cells
+ESCs (PDL)	Embryonic	Normal (untransformed) cultured cells
+ESCs (V6.5)	Embryonic	Normal (untransformed) cultured cells
+ESCs (ZHBTc4)	Embryonic	Normal (untransformed) cultured cells
+ESCs (groundstate)	Embryonic	Normal (untransformed) cultured cells
+Naive ESCs (2iL)	Embryonic	Normal (untransformed) cultured cells
+Naive ESCs (2iLGO)	Embryonic	Normal (untransformed) cultured cells
+EpiSC	Embryonic	Normal (untransformed) cultured cells
+Granulocyte-monocyte progenitor	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Hematopoietic stem cells	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Hematopoietic stem cells (MPP1)	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Hematopoietic stem cells (MPP2)	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Hematopoietic stem cells (MPP3)	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Hematopoietic stem cells (MPP4)	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Inner cell mass (E3.5)	Embryonic	Primary cells (FACS sorted/magnetically purified)
+Inner cell mass (E3.75)	Embryonic	Primary cells (FACS sorted/magnetically purified)
+Innate lymphoid cell (Type 2)	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Long-term HSC	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+MEF	Mesoderm	Normal (untransformed) cultured cells
+Multipotent progenitor	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+MSC (bone)	Mesoderm	Primary cells (FACS sorted/magnetically purified)
+MSC (skin)	Mesoderm	Primary cells (FACS sorted/magnetically purified)
+MSC (thymus)	Mesoderm	Primary cells (FACS sorted/magnetically purified)
+Medial ganglionic eminence neurons	Neurectoderm	Primary cells (FACS sorted/magnetically purified)
+Natural killer cells	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+NKT stage1	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+NKT stage2	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+NKT stage3	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Neural progenitor cell	Neurectoderm	Primary cells (FACS sorted/magnetically purified)
+Blastocyst (Early) ICM	Embryonic	Primary cells (FACS sorted/magnetically purified)
+Blastocyst (Early) TE	Embryonic	Primary cells (FACS sorted/magnetically purified)
+2C Embryo (early)	Embryonic	Primary cells (FACS sorted/magnetically purified)
+2C Embryo (late)	Embryonic	Primary cells (FACS sorted/magnetically purified)
+2C Embryo (middle)	Embryonic	Primary cells (FACS sorted/magnetically purified)
+4C Embryo (single-cell)	Embryonic	Primary cells (FACS sorted/magnetically purified)
+8C Embryo (single-cell)	Embryonic	Primary cells (FACS sorted/magnetically purified)
+Blastocyst (Late) PrE	Embryonic	Primary cells (FACS sorted/magnetically purified)
+Blastocyst (Late) TE	Embryonic	Primary cells (FACS sorted/magnetically purified)
+Blastocyst (Mid) TE	Embryonic	Primary cells (FACS sorted/magnetically purified)
+Blastocyst (Mid) ICM	Embryonic	Primary cells (FACS sorted/magnetically purified)
+Morula (single-cell)	Embryonic	Primary cells (FACS sorted/magnetically purified)
+Zygote	Embryonic	Primary cells (FACS sorted/magnetically purified)
+Erythroid cells (TER119+)	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Trophoblast stem cells	Embryonic	Normal (untransformed) cultured cells
+2C Embryo	Embryonic	Primary cells (FACS sorted/magnetically purified)
+2C-like cells (MERVL+ Zscan+)	Embryonic	Normal (untransformed) cultured cells
+2C-like cells (MERVL+)	Embryonic	Normal (untransformed) cultured cells
+4C Embryo	Embryonic	Primary cells (FACS sorted/magnetically purified)
+8C Embryo	Embryonic	Primary cells (FACS sorted/magnetically purified)
+XEN cells	Embryonic	Normal (untransformed) cultured cells
+Adipocytes (cultured, brown)	Mesoderm	Normal (untransformed) cultured cells
+Adipocytes (cultured, white)	Mesoderm	Normal (untransformed) cultured cells
+Adipose	Mesoderm	Primary cells (FACS sorted/magnetically purified)
+Adrenal medulla	Mesoderm	Primary tissue
+Astrocyte	Neurectoderm	Primary tissue
+Basophilic erythroblast	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Blastocyst	Embryonic	Primary tissue
+Brain	Neurectoderm	Primary tissue
+Caecum (E13.5)	Endoderm	Primary tissue
+Carotid body	Mesoderm	Primary tissue
+Cerebellar granular neurons	Neurectoderm	Primary cells (FACS sorted/magnetically purified)
+Cerebellum	Neurectoderm	Primary tissue
+Chondrocyte (Rib)	Mesoderm	Primary cells (FACS sorted/magnetically purified)
+Colon	Endoderm	Primary tissue
+Colon epithelial cells	Endoderm	Primary tissue
+Cortex	Neurectoderm	Primary tissue
+Cortex neuron	Neurectoderm	Primary cells (FACS sorted/magnetically purified)
+Cortical thymic epithelial	Mesoderm	Primary cells (FACS sorted/magnetically purified)
+Dendritic cells (BMDC)	Blood mesoderm	In vitro derived cells
+Dentate gyrus	Neurectoderm	Primary tissue
+Dermal fibroblast	Mesoderm	Normal (untransformed) cultured cells
+Dorsal root ganglia	Neurectoderm	Primary cells (FACS sorted/magnetically purified)
+Ectoplacental cone	Embryonic	Primary tissue
+Spermatids (elongated)	Germ cells	Primary cells (FACS sorted/magnetically purified)
+Eosinophils -IL-10 -LPS	Blood mesoderm	In vitro derived cells
+Eosinophils -IL-10 +LPS	Blood mesoderm	In vitro derived cells
+Basal epidermis (E14.5)	Surface ectoderm	Primary cells (FACS sorted/magnetically purified)
+Suprabasal epidermis (E14.5)	Surface ectoderm	Primary cells (FACS sorted/magnetically purified)
+Epididymis	Mesoderm	Primary tissue
+Erythroblast	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Erythrocytes type A	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Erythrocytes type B	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Erythroid progenitor	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Eye	Neurectoderm	Primary tissue
+Fatpad	Mesoderm	Primary tissue
+Frontal cortex	Neurectoderm	Primary tissue
+Granulocytes	Blood mesoderm	In vitro derived cells
+Hair follicle	Surface ectoderm	Primary cells (FACS sorted/magnetically purified)
+Hair follicle stem cells	Surface ectoderm	Primary cells (FACS sorted/magnetically purified)
+Hair follicle transit amplifying cells	Surface ectoderm	Primary cells (FACS sorted/magnetically purified)
+Heart	Mesoderm	Primary tissue
+Hippocampus	Neurectoderm	Primary tissue
+Hippocampus neuron	Neurectoderm	Primary cells (FACS sorted/magnetically purified)
+Hippocampus tissue	Neurectoderm	Primary tissue
+Invariant NKT	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Ileum	Endoderm	Primary tissue
+Intestinal stem cell	Endoderm	Primary tissue
+Intestinal subepithelial myofibroblasts (adult)	Mesoderm	Primary cells (FACS sorted/magnetically purified)
+Intestinal subepithelial myofibroblasts (neonatal)	Mesoderm	Primary cells (FACS sorted/magnetically purified)
+Intestine	Endoderm	Primary tissue
+Keratinocyte	Surface ectoderm	Normal (untransformed) cultured cells
+Kidney	Mesoderm	Primary tissue
+Large intestine	Endoderm	Primary tissue
+Liver	Endoderm	Primary tissue
+Lower molar	Neural crest	Primary tissue
+Lung	Endoderm	Primary tissue
+Lung fibroblasts	Mesoderm	Primary cells (FACS sorted/magnetically purified)
+Macrophages -IL10 -LPS	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Macrophages -IL10 +LPS	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Macrophages +IL10 -LPS	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Macrophages +IL10 +LPS	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Mammary tissue	Mesoderm	Primary tissue
+Mast cells (CD25-)	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Mast cells (CD25+)	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Mature sperm	Germ cells	Primary cells (FACS sorted/magnetically purified)
+Medullary thymic epithelial	Endoderm	Primary cells (FACS sorted/magnetically purified)
+Medullary thymic epithelial cell (immature)	Endoderm	Primary cells (FACS sorted/magnetically purified)
+Medullary thymic epithelial cell (mature)	Endoderm	Primary cells (FACS sorted/magnetically purified)
+Megakaryoblast	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Megakaryocyte erythroid progenitor	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Microglia	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Monocytes	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Morula	Embryonic	Primary cells (FACS sorted/magnetically purified)
+Motor neurons	Neurectoderm	Primary cells (FACS sorted/magnetically purified)
+Mast cell -IL10 -LPS	Blood mesoderm	In vitro derived cells
+Mast cell -IL10 +LPS	Blood mesoderm	In vitro derived cells
+Mast cell +IL10 -LPS	Blood mesoderm	In vitro derived cells
+Mast cell +IL10 +LPS	Blood mesoderm	In vitro derived cells
+Myelocytes	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Myeloid cells	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Myoblast	Mesoderm	Normal (untransformed) cultured cells
+Naive CD4+ T cells, anti-CD3/28 treated	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Neocortex cortical plate	Neurectoderm	Primary tissue
+Neocortex subventricular zone	Neurectoderm	Primary tissue
+Neocortex ventricular zone	Neurectoderm	Primary tissue
+Neonatal tail fibroblast	Mesoderm	Normal (untransformed) cultured cells
+Neutrophil -IL10 -LPS	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Neutrophil -IL10 +LPS	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Neutrophil +IL10 -LPS	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Neutrophil +IL10 +LPS	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Neuron	Neurectoderm	Primary cells (FACS sorted/magnetically purified)
+Nucleus accumbens	Neurectoderm	Primary tissue
+Olfactory bulb	Neurectoderm	Primary tissue
+Oligodendrocyte (myelinating)	Neurectoderm	Primary cells (FACS sorted/magnetically purified)
+Oligodendrocyte (newly formed)	Neurectoderm	Primary cells (FACS sorted/magnetically purified)
+Oligodendrocyte (precursor)	Neurectoderm	Primary cells (FACS sorted/magnetically purified)
+Oocytes	Embryonic	Primary cells (FACS sorted/magnetically purified)
+Orthochromatic erythroblast	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Oviduct	Mesoderm	Primary tissue
+Pancreatic cell (alpha)	Endoderm	Primary cells (FACS sorted/magnetically purified)
+Pancreatic cell (beta)	Endoderm	Primary cells (FACS sorted/magnetically purified)
+Embryonic kidney fibroblast	Mesoderm	Normal (untransformed) cultured cells
+PGC (female)	Embryonic	Primary cells (FACS sorted/magnetically purified)
+PGC (male)	Embryonic	Primary cells (FACS sorted/magnetically purified)
+Pineal gland	Neurectoderm	Primary tissue
+Placenta	Embryonic	Primary tissue
+Polychromatic erythroblast	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+pre-B cells	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+pre-Adipocytes (brown)	Mesoderm	Normal (untransformed) cultured cells
+pre-Adipocytes (white)	Mesoderm	Normal (untransformed) cultured cells
+Adipocytes (brown)	Mesoderm	Primary cells (FACS sorted/magnetically purified)
+Adipocytes (white)	Mesoderm	Primary cells (FACS sorted/magnetically purified)
+pro-B cells	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+pro-B (fraction B)	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+pro-B (fraction CC`)	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Proerythroblast	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Promyelocytes	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Pronuclei	Embryonic	Primary cells (FACS sorted/magnetically purified)
+Prostate basal cells	Endoderm	Primary tissue
+Prostate luminal cells	Endoderm	Primary tissue
+Retina	Neurectoderm	Primary tissue
+Spermatids (round)	Germ cells	Primary cells (FACS sorted/magnetically purified)
+EpiSC (region-selective)	Embryonic	Normal (untransformed) cultured cells
+splenic DC -IL10 -LPS	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+splenic DC -IL10 +LPS	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+splenic DC +IL10 -LPS	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+splenic DC +IL10 +LPS	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Skeletal muscle	Mesoderm	Primary tissue
+Skin epithelial	Surface ectoderm	Primary tissue
+Small intestine cells	Endoderm	Primary tissue
+Somatic gonadal cell	Mesoderm	Primary tissue
+Spermatids	Germ cells	Primary cells (FACS sorted/magnetically purified)
+Spermatocytes	Germ cells	Primary cells (FACS sorted/magnetically purified)
+Spermatogonia	Germ cells	Primary cells (FACS sorted/magnetically purified)
+Spinal cord	Neurectoderm	Primary tissue
+Spleen	Blood mesoderm	Primary tissue
+splenic B cells	Blood mesoderm	Primary cells (FACS sorted/magnetically purified)
+Striated muscle	Mesoderm	Primary tissue
+Striatum	Neurectoderm	Primary tissue
+Substantia nigra	Neurectoderm	Primary tissue
+Subventricular zone	Neurectoderm	Primary tissue
+Tail fibroblast	Mesoderm	Primary tissue
+Telencephalon	Neurectoderm	Primary tissue
+Testicular cells	Germ cells	Primary tissue
+Thymus	Blood mesoderm	Primary tissue
+Polyploid trophoblast giant cells (E9.5)	Embryonic	Primary cells (FACS sorted/magnetically purified)
+Upper molar	Neural crest	Primary tissue
+Uterus	Mesoderm	Primary tissue
+Vas deferens	Mesoderm	Primary tissue
+Ventral tegmental	Neurectoderm	Primary tissue
+White-matter glia	Neurectoderm	Primary cells (FACS sorted/magnetically purified)
+Zona limitans intrathalamica	Neurectoderm	Primary tissue
