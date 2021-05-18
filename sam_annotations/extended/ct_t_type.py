@@ -32,7 +32,7 @@ derivation_type = {
     'BMDM pINFa': invitro_derived,
     'BMDM TGFb': invitro_derived,
     'BMDM': invitro_derived,
-    'brain': primary_tissue, 
+    'brain': primary_tissue,
     'caecum': primary_tissue,
     'carotid body': primary_tissue,
     'CD4T cells': primary_cell_type,
@@ -249,7 +249,7 @@ derivation_type = {
     'sdc im lm': primary_cell_type,
     'sdc im lp': primary_cell_type,
     'sdc ip lm': primary_cell_type,
-    'sdc ip lp': primary_cell_type,  
+    'sdc ip lp': primary_cell_type,
     'skeletal muscle': primary_tissue,
     'skin epithelial': primary_tissue,
     'small intestine cells': primary_tissue,
@@ -292,29 +292,30 @@ derivation_type = {
     'vas deferens': primary_tissue,
     'ventral tagmental': primary_tissue,
     'white matter glia': primary_cell_type,
+    'X2clc': cultured_cells,
+    'X2clc D1 rp3': cultured_cells,
     'X2C embryo': primary_cell_type,
     'X4C embryo': primary_cell_type,
     'X8C embryo': primary_cell_type,
     'XEN': cultured_cells,
     'zona limitans intrathalamica': primary_tissue,
     }
-    
+
 if __name__ == '__main__':
     from glbase import glload
     from .gene_layer_name import gene_layer_name
 
     # Check all sample names are actually used:
     expn = glload("../../pub/rsem-genes/genes_cpm_expression.glb")
- 
+
     cond_names = expn.getConditionNames()
-    
+
     print('\nFound in "derivation_type" but not in expn:')
     for c in sorted(derivation_type.keys()):
         if c not in cond_names:
             print('! %s' % (c,))
-            
+
     print('\nFound in "expn" but not in derivation_type:')
     for c in cond_names:
         if c not in list(derivation_type.keys()):
-            print("'%s': ," % (c,))            
-    
+            print("'%s': ," % (c,))

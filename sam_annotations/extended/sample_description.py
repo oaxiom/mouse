@@ -2,7 +2,7 @@
 
 sample_description = {
     'adipocytes brown': 'Adipocytes (cultured, brown)',
-    'adipocytes white': 'Adipocytes (cultured, white)', 
+    'adipocytes white': 'Adipocytes (cultured, white)',
     'adipose': 'Adipose',
     'adrenal medulla': 'Adrenal medulla',
     'astrocyte': 'Astrocyte',
@@ -27,7 +27,7 @@ sample_description = {
     'BMDM pINFa': 'BMDM +IFNa',
     'BMDM TGFb': 'BMDM +TGFb',
     'BMDM': 'BMDM',
-    'brain': 'Brain', 
+    'brain': 'Brain',
     'caecum': 'Caecum (E13.5)',
     'carotid body': 'Carotid body',
     'CD4T cells': 'CD4+ T cells',
@@ -76,8 +76,8 @@ sample_description = {
     'E105 lateral prominence neural epithelium': 'Lateral prominence neural epithelium (E10.5)',
     'E105 mandibular arch': 'Mandibular arch (E10.5)',
     'E105 maxillary arch': 'Maxillary arch (E10.5)',
-    'E105 olfactory pit': 'Olfactory pit (E10.5)', 
-    'E125 atrioventricular canal': 'Atrioventricular canal (E12.5)', 
+    'E105 olfactory pit': 'Olfactory pit (E10.5)',
+    'E125 atrioventricular canal': 'Atrioventricular canal (E12.5)',
     'E165 cortical neurons': 'Cortical neurons (E16.5)',
     'E165 skin': 'Skin (E16.5)',
     'E185 dermis': 'Dermis (E18.5)',
@@ -87,7 +87,7 @@ sample_description = {
     'E65 Epiblast PD': 'Epiblast (E6.5) posterior-dorsal',
     'E65 Epiblast PP': 'Epiblast (E6.5) posterior-proximal',
     'E85 caudal brain neural epithelium': 'Caudal brain neural epithelium (E8.5)',
-    'E85 floor plate': 'Floor plate (E8.5)', 
+    'E85 floor plate': 'Floor plate (E8.5)',
     'E85 mesoderm': 'Mesoderm (E8.5)',
     'E85 non floor plate neural epithelium': 'Non-floor plate neural epithelium (E8.5)',
     'E95 cranial mesenchyme': 'Cranial mesenchyme (E9.5)',
@@ -230,7 +230,7 @@ sample_description = {
     'sdc im lm': 'splenic DC -IL10 -LPS',
     'sdc im lp': 'splenic DC -IL10 +LPS',
     'sdc ip lm': 'splenic DC +IL10 -LPS',
-    'sdc ip lp': 'splenic DC +IL10 +LPS',  
+    'sdc ip lp': 'splenic DC +IL10 +LPS',
     'skeletal muscle': 'Skeletal muscle',
     'skin epithelial': 'Skin epithelial',
     #'skin': 'Skin',
@@ -243,7 +243,7 @@ sample_description = {
     'spleen': 'Spleen',
     'splenicB cells': 'splenic B cells',
     'SS Early blastocyst E2 C16': 'Blastocyst (Early) ICM',
-    'SS Early blastocyst E4 C8': 'Blastocyst (Early) TE', 
+    'SS Early blastocyst E4 C8': 'Blastocyst (Early) TE',
     'SS Embryo2C early E1 C2': '2C Embryo (early)', # The single cell embryo data.
     'SS Embryo2C late E6 C2': '2C Embryo (late)',
     'SS Embryo2C mid E5 C2': '2C Embryo (middle)',
@@ -271,27 +271,29 @@ sample_description = {
     'vas deferens': 'Vas deferens',
     'ventral tagmental': 'Ventral tegmental',
     'white matter glia': 'White-matter glia',
+    'X2clc': '2C-like cells (MERVL+ Zscan+)',
+    'X2clc D1 rp3': '2C-like cells (MERVL+)',
     'X2C embryo': '2C Embryo',
     'X4C embryo': '4C Embryo',
     'X8C embryo': '8C Embryo',
     'XEN': 'XEN cells',
     'zona limitans intrathalamica': 'Zona limitans intrathalamica',
     }
- 
+
 if __name__ == '__main__':
-    from glbase import glload
+    from glbase3 import glload
     from .gene_layer_name import gene_layer_name
 
     # Check all sample names are actually used:
-    expn = glload("../../pub/rsem-genes/genes_cpm_expression.glb")
- 
+    expn = glload("../../te_counts/genes_cpm_expression.glb")
+
     cond_names = expn.getConditionNames()
-    
+
     print('\nFound in "sample_description" but not in expn:')
     for c in sorted(sample_description.keys()):
         if c not in cond_names:
             print('! %s' % (c,))
-            
+
     print('\nFound in "expn" but not in sample_description:')
     for c in cond_names:
         if c not in list(sample_description.keys()):
@@ -301,4 +303,3 @@ if __name__ == '__main__':
     # For spell check:
     for s in sorted(sample_description.values()):
         print(s)
-        
