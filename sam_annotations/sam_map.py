@@ -117,7 +117,7 @@ if __name__ == "__main__":
     ss1 = set(expn_names) - set(desc_names)
     ss2 = set(desc_names) - set(expn_names)
     if ss1:
-        print(">>>issing in sample_description:\n", '\n'.join(sorted(list(ss1))))
+        print(">>>Missing in sample_description:\n", '\n'.join(sorted(list(ss1))))
     print()
     if ss2:
         print(">>>Missing in exp:\n", '\n'.join(sorted(list(ss2))))
