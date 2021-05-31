@@ -11,7 +11,7 @@ from glbase3 import *
 user_path = os.path.expanduser("~")
 ensg = glload(os.path.join("../mm10/mm10_ensembl_v95_ensg_tes.glb"))
 
-raw_expn = expression(filename="rawtags_gc_normed.tsv", format={"force_tsv": True, "skiplines": -1, "ensg": 0}, expn="column[1:]")
+raw_expn = expression(filename="rawtags_gc_normed.tsv", format={"force_tsv": True, "skiplines": 0, "ensg": 0}, expn="column[1:]")
 raw_expn.sort_conditions()
 
 arr = raw_expn.mean_replicates(
@@ -263,17 +263,17 @@ arr = arr.filter_low_expressed(10**1.6, 1)
 mapped = ensg.map(key="ensg", genelist=arr)
 mapped.strip_errs() # I probably want a error key containing version too...
 print(list(mapped.keys()))
-mapped.saveTSV("genes_cpm_expression.tsv", key_order=['ensg', 'name'])
+mapped.saveTSV("genes_ntc_expression.tsv", key_order=['ensg', 'name'])
 
 # Clean out hanger on data
 # ['loc', 'name', 'ensg', 'tss_loc', 'conditions', 'strand']
 f = {"force_tsv": True, 'ensg': 0, 'name': 1}
-mapped = expression(filename='genes_cpm_expression.tsv', format=f, expn='column[2:]')
-mapped.save("genes_cpm_expression.glb") # These are the final tables.
+mapped = expression(filename='genes_ntc_expression.tsv', format=f, expn='column[2:]')
+mapped.save("genes_ntc_expression.glb") # These are the final tables.
 
 mapped = ensg.map(key="ensg", genelist=raw_expn)
-mapped.save("genes_cpm_expression_nonmerged.glb")
-mapped.saveTSV("genes_cpm_expression_nonmerged.tsv")
+mapped.save("genes_ntc_expression_nonmerged.glb")
+mapped.saveTSV("genes_ntc_expression_nonmerged.tsv")
 
 arr.tree(filename="tree.png", color_threshold=0.0, label_size=5, size=(5,14))
 print()

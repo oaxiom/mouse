@@ -44,6 +44,16 @@ for k in sorted({x for v in gene_layer.values() for x in v}):
         if k in gene_layer[gl]:
             sample_colours[k] = colour_guide[gl]
 
+def get_cols(cond_names):
+    cols = []
+    for c in cond_names:
+        if c in sample_colours:
+            cols.append(sample_colours[c])
+        else:
+            print('{} not found in colors'.format(c))
+            cols.append('grey')
+    return cols
+
 all_gses = [sample_to_gse[k] for k in sample_to_gse]
 all_gses = set([x for sublist in all_gses for x in sublist])
 

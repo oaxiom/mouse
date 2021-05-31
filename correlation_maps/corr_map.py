@@ -6,7 +6,7 @@ import sam_map
 
 config.draw_mode = "pdf"
 
-expn = glload("../te_counts/genes_cpm_expression.glb")
+expn = glload("../te_counts/genes_ntc_expression.glb")
 sam_map.remap_expn_sample_names(expn)
 
 expn.log(2, 0.1)

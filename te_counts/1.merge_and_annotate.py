@@ -62,4 +62,4 @@ cond_names = conds
 
 expn = expression(loadable_list=all, expn=cond_names)
 expn.saveTSV("norm_input.tsv")
-expn.save("norm_input.glb") # Only need for QC purposes
+#expn.save("norm_input.glb") # Only need for QC purposes
